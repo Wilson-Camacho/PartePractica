@@ -1,0 +1,18 @@
+$color-letra: #ffffff;
+$color-cuadrado: #d45d38;
+
+.row{
+    color: $color-letra;
+    display: flex;
+}
+
+.item{
+    background-color: $color-cuadrado;
+    width: 130px;
+    margin: 10px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 35px; 
+    font-family: sans-serif;
+
+}
